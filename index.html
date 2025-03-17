@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi pagina WEB</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+    <!-- Sección encabezado -->
+    <header class="header">
+        <a href="index.html" class="logo"><img src="Logotipo.jpg"></a>
+        <h1> La Bendicion </h1>
+        <nav class="navbar">
+            <span class="icon" onclick="toggleMenu()">&#9776;</span>
+            <ul class="menu" id="menu">
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="Somos.html">Quiénes somos</a></li>
+                <li><a href="catalogo.html">Catálogo</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Sección de contenido principal-->
+    <main>
+        <!-- Sección de la empresa -->
+        <section id="empresa" class="columnas">
+            <div class="izquierda">
+                <img src="images - 2025-03-11T063805.913.jpeg" width="250" height="200" alt="quienes_somos">
+            </div>
+            <div class="derecha">
+                <i></em><h5> Somos tu tienda de abarrotes de confianza </h5><i>
+                <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                     
+                <h2> Tienda de abarrotes <br>
+                    
+                    LA BENDICION
+                </h2>
+                <p> Nuestra mision es ofrercete a ti y a tu familia los productos de la canasta basica a un gran precio, y de las mejores marcas</p>    
+            </div>
+        </section>
+
+        <!-- Sección de Promociones -->
+        <section id="promocion">
+            <h2> NUESTRAS PROMOCIONES </h2>
+            <div class="catalogo">
+                <!-- promocion 1 -->
+                <div class="producto">
+                    <img src="images - 2025-03-11T055345.958.jpeg" alt="Producto 1">
+                    <div class="producto-info">
+                        <h2> Oferta <br> Barritas Marinela
+                           
+                        </h2>
+                        <p> Barritas Marinela, 15gm, Distintos sabores</p>
+                    </div>
+                </div>
+                <!-- promocion 2 -->
+                <div class="producto">
+                    <img src="images - 2025-03-11T055324.442.jpeg" alt="Producto 2">
+                    <div class="producto-info">
+                        <h2> Oferta <br> Electrolit</h2>
+                        <p> Electrolit, 625ml, Distintos sabores </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Sección de Servicios y Precios -->
+        <section id="servicios" class="columnas">
+            <div class="izquierda">
+                <h2>Servicios y Precios</h2>
+                <ul>
+                    <li> Venta de carnes frias: 50 - 50,000 MX </li>
+                    <img src="images - 2025-03-11T173346.944.jpeg" width="200" height="200">
+                    <br>
+                    <br>
+                    <br>
+                    
+                    <li> Venta de dulceria: 2 - 10,000 MX </li>
+                    <img src="images - 2025-03-11T172831.934.jpeg" width="200" height="200">
+                    <br>
+                    <br>
+                    <br>
+                    <li> Venta de alimentos para animales de granja de la marca CAMPI, a minoreo y mayoreo</li>
+                    <img src="campi_alimentos_slider.webp" width="200" height="200">
+                    <br>
+                    <br>
+                    <br>
+                    <li> Servicio de papeleria: 6 - 10,000 MX </li>
+                    <img src="images - 2025-03-11T173124.036.jpeg" width="200" height="200">
+                    <!-- Agregar más servicios según sea necesario -->
+                </ul>
+            </div>
+            <div class="derecha">
+                
+            </div>
+        </section>
+
+        <!-- Sección de Marcas -->
+        <section id="marcas">
+            <h2>Nuestras Marcas</h2>
+            <div class="brands">
+                <img src="images - 2025-03-11T172047.408.jpeg" width="40" height="40" alt=" Muscletech">                                          
+               <img src="images (12).png" alt="marca2">
+                <img src="images (18).png" alt="Marca 3">
+                <img src="images (13).png" alt="Marca 4">
+            </div>
+        </section>
+    </main>
+
+    <!-- Sección de Pie de pagina -->
+    <footer>
+        <p>&copy; 2025 Mi empresa. Todos los derechos reservados.</p>
+        <div class="redes-sociales">
+            <a href="#" target="_blank">Facebook: @LabendicionAbarrotes</a> 
+            <a href="#" target="_blank">Twitter: @LabendcionCentla</a> 
+            <br>
+            <a href="#" target="_blank">Instagram: @LabendicionAbarroteria</a>
+        </div>
+        <p>Contacto: AbarrotesLabendcion@Gmail.com</p>
+    </footer>
+
+    <!-- script Codigo de JavaScript -->
+    <script>
+        // Función para mostrar u ocultar el menú en móviles
+        function toggleMenu() {
+          const menu = document.getElementById("menu");
+          menu.classList.toggle("responsive");
+        }
+      </script>
+</body>
+</html>
+
